@@ -1,5 +1,5 @@
 class Color:
-    def __init__(self,color):
+    def __init__(self, color):
         self._color = color
 
     @property
@@ -7,5 +7,8 @@ class Color:
         return self._color
 
     @color.setter
-    def color(self,color):
+    def color(self, color):
         self._color = color
+
+    def __str__(self):
+        return f'Color: {self._color}'
