@@ -5,7 +5,7 @@ from Rectangulo import Rectangulo
 print(Cuadrado.mro())
 
 print('Cuadrado'.center(30,"-"))
-cuadrado1 = Cuadrado(9, 'Azul')
+cuadrado1 = Cuadrado(lado=10,color= 'Azul')
 print(cuadrado1)
 print(f'Area del cuadrado: {cuadrado1.calcular_area()}')
 
